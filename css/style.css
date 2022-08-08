@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+    height: 100vh;
+    
+}
+img{
+    width: 50%;
+    height: auto;
+    
+}
+header{
+    background-color: purple;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+        
+}
+nav img{
+    margin:70px 0px 0px 100px;
+    width: 150px;
+}
+ .nav-items{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: white;
+    margin: 70px 0px 0px 50px;
+    font-size: 20px;
+}
+nav button{
+    background-color: rgba(71, 170, 212, 0.903);
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    margin: 70px 60px 0px 50px;
+}
+
+/* - - - - -  - - - nav bottom part - - - -  - - */
+
+.nav-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ .nav-bottom div:first-child{
+    margin-top: 100px;
+    color: white;
+    margin-left: 100px;
+    max-width: 550px;
+}
+
+.nav-bottom div:first-child h1{
+   font-size: 60px;
+   
+}
+.nav-bottom div:first-child p{
+   margin-top: 20px;
+   line-height: 30px;
+   font-size: 20px;
+   color: rgba(255, 255, 255, 0.851);
+}
+.nav-bottom div:last-child img{
+    width: 700px;
+}
+/* -----------------hero section-------------------- */
+/* -----------hero top ------------------ */
+.hero .hero-top {
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.hero-top img{
+     width: 700px;
+    
+}
+.hero-text{
+    margin-top: 120px;
+    max-width: 30rem;
+    margin-right: 60px;
+
+}
+.hero-text h2{
+    font-size: 40px;
+}
+.hero-sub-text {
+   margin-top: 50px;
+   margin-left: 40px;
+   max-width: 350px;
+   
+}
+.hero-sub-text h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.hero-sub-text h4::before{
+    content:  "";
+    height: 10px;
+    width: 15px;
+    display: block;
+    background-color: rgb(151, 47, 123);
+    border-radius: 50%;
+    position: relative;
+    right: 25px;
+    top: 17px;
+    
+    
+    
+    
+}
+.hero-sub-text p{
+    margin-bottom: 20px;
+    margin-left:25px ;
+    color: rgba(0, 0, 0, 0.788);
+}
+/* ---------------hero bottom----------- */
+.hero-bottom{
+    margin-top: 50px;
+}
+.hero-bottom .heading{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+/*  --------- cards-------- */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  
+}
+.card, .card-active{
+    margin-left: 40px;
+    background-color: rgba(255, 248, 248, 0.462);
+    box-shadow:  5px 5px 5px black;
+    border-radius: 20px;
+    height: 270px;
+    width: 250px;
+    margin-bottom: 100px;
+}
+.card img,.card-active img{
+     width: 80px;
+     margin-left: 50px;
+     margin-top: 30px;
+     background-color: rgba(235, 167, 178, 0.666);
+     border-radius: 50%;
+     padding: 10px;
+}
+.cards h4,.card-active h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.cards p,.card-active p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-active div:last-child{
+    background-color: rgb(131, 43, 171);
+    border-radius: 20px;
+    color: white;
+    padding: 0px 0px 17px 0px;
+
+}
