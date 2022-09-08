@@ -79,6 +79,7 @@ nav button{
 }
 .hero-top img{
      width: 700px;
+     
     
 }
 .hero-text{
@@ -133,6 +134,7 @@ nav button{
     justify-content: center;
     margin-top: 100px;
     flex-wrap: wrap;
+    gap: 40px;
     
 }
 .card, .card-active{
@@ -209,18 +211,15 @@ nav button{
 
     .nav-bottom div:last-child img,.hero-top img{
         width: 400px;
-        position: relative;
-      
-        
+        position: relative;    
     }
-    
     .hero .hero-top {
         flex-direction: column;
-        justify-content: center;
-        align-content: center; 
+        align-items: center; 
     }
     .nav-bottom{
         flex-direction: column-reverse;
+        align-items: center;
     }
     nav{
         display: flex;
@@ -246,6 +245,17 @@ nav button{
         top: 30px;
         right: 0px;
     }
+    .nav-bottom div:first-child{
+       
+        margin-left: 10px;
+       
+    }
+    .card, .card-active{
+        margin-left: 0px;
+        
+      
+    }
+    
     
 }
 @media only screen and (max-width:480px){
@@ -261,4 +271,5 @@ nav button{
     .nav-bottom div:last-child img,.hero-top img{
         width: 300px;
     }
+
 }
